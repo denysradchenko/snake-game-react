@@ -46,6 +46,8 @@ export default class SnakeService {
 
     const newSnake = [newHead, ...newBody];
 
+    if (newBody.some(el => el.column === newHead.column && el.row === newHead.row)) return 'gameover';
+
     return {
       colSize,
       rowSize,

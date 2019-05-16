@@ -18,7 +18,6 @@ class Game extends Component {
   }
 
   snakeMovement = () => {
-    console.log('Moves');
     const { colSize, rowSize, snake, apple } = this.state;
     const newState = this.SnakeService.getActualBoard(colSize, rowSize, apple, snake, this.props.direction);
 
@@ -32,14 +31,8 @@ class Game extends Component {
   }
 
   componentDidMount() {
-    console.log('component <Game /> did Mount');
     document.addEventListener("keydown", this.props.handleKeyDown);
     this.interval = setInterval(this.snakeMovement, 150);
-  }
-
-  componentWillUnmount() {
-    console.log('component <Game /> did Unmount');
-    clearInterval(this.interval);
   }
 
   render() {

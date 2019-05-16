@@ -7,7 +7,16 @@
 }
 
 .field-apple {
-  background-color: rgb(206, 42, 42) !important;
+  position: relative;
+}
+
+.field-apple i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(206, 42, 42);
+  font-size: 1.5rem;
 }
 
 .field-snake {

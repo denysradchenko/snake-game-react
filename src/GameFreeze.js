@@ -11,11 +11,6 @@ class GameFreeze extends Component {
 
   componentDidMount() {
     document.addEventListener("keydown", this.props.handleKeyDown);
-    console.log('component <GameFreeze /> did Mount');
-  }
-
-  componentWillUnmount() {
-    console.log('component <GameFreeze /> did Unmount');
   }
 
   render() {

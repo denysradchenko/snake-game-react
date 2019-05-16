@@ -7,8 +7,10 @@ const Field = ({ value }) => {
   else if (value === "snake") fieldClass += ' field-snake';
   else if (value === "snakehead") fieldClass += ' field-snakehead';
 
+  const fieldValue = value === "apple" ? <i className="fas fa-apple-alt"></i> : null;
+
   return (
-    <div className={fieldClass}></div>
+    <div className={fieldClass}>{fieldValue}</div>
   );
 }
 
