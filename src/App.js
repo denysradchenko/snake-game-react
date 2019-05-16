@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Game from './Game';
 import GameFreeze from './GameFreeze';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   state = {
