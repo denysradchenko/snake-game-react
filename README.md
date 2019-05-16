@@ -8,7 +8,7 @@ To control snake movements use arrow keys on Your keyboard:
 - Arrow Up
 - Arrow Down
 - Arrow Left
-- Arrow Rightgit log
+- Arrow Right
 
 
 [Link to the deployed application on GitHub Pages](https://denysradchenko.github.io/snake-game-react/)
