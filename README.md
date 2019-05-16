@@ -1,4 +1,10 @@
+<div align="center">
+
 ## Snake Game on React
+
+![snake-game-react demo](https://user-images.githubusercontent.com/35630334/57855047-06b3a580-77ea-11e9-86a8-f6bc4793b86e.gif)
+
+</div>
 
 The game concept is attempts to eat apples by running into them with the head of the snake. Each item eaten makes the snake longer, so controlling is progressively more difficult.
 
