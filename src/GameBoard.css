@@ -1,0 +1,20 @@
+.GameBoard {
+  width: 80vmin;
+  height: 80vmin;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  background-color: rgb(199, 199, 199);
+}
+
+.GameBoard>.column:nth-child(odd)>.Field:nth-child(odd),
+.GameBoard>.column:nth-child(even)>.Field:nth-child(even) {
+  background-color: rgb(218, 218, 218);
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
