@@ -4,8 +4,10 @@ import './GameOver.css'
 const GameOver = ({ newGame }) => {
   return (
     <div className="GameOver">
-      <h4>Game Over</h4>
-      <button onClick={newGame}>New game</button>
+      <div className="alert alert-danger" role="alert">
+        <h4>Game Over</h4>
+        <button onClick={newGame} className="btn btn-success">Restart</button>
+      </div>
     </div>
   );
 }
